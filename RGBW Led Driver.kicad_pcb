@@ -6603,19 +6603,19 @@
 		(layer "Edge.Cuts")
 		(uuid "1b3bb8d1-dc66-41dc-9ed8-66a57a403963")
 	)
-	(gr_text "Rev 0.1^n"
-		(at 160.02 81.28 0)
+	(gr_text "RGBW Led Driver\nRev 0.1^n"
+		(at 156.73865 80.434449 0)
 		(layer "F.SilkS")
 		(uuid "82807038-6c6c-4996-bebc-b5d34237bfd7")
 		(effects
 			(font
-				(size 1.5 1.5)
+				(size 1.4 1.4)
 				(thickness 0.3)
 				(bold yes)
 			)
 		)
 	)
-	(gr_text "Claudio M.\n2026-10-15"
+	(gr_text "Claudio M.\n2026-10-16"
 		(at 177.821914 123.200256 0)
 		(layer "F.SilkS")
 		(uuid "6ab84e34-bf47-4eb3-a54e-1d84a6401901")
