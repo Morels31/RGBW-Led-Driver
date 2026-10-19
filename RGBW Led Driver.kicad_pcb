@@ -540,6 +540,7 @@
 		(property "Value" "MountingHole_3.2mm_M3"
 			(at 0 4.15 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "fb9d9396-dcb8-433e-9fc5-d9e860316f83")
 			(effects
 				(font
@@ -605,17 +606,6 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "4842e4f6-4ebb-45b2-9473-6282e35379fb")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "e159a762-1e02-470d-99e5-5a458b8c20a3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -4378,6 +4368,7 @@
 		(property "Value" "MountingHole_3.2mm_M3"
 			(at 0 4.15 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "98c9d82b-ad36-4f34-8bd2-8dbae0ac6182")
 			(effects
 				(font
@@ -4443,17 +4434,6 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "94125a61-fe19-4de8-b878-eafaf74d5471")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "2923b9e1-b50b-4e6c-a8cb-f00f972f0dea")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -4644,6 +4624,7 @@
 		(property "Value" "MountingHole_3.2mm_M3"
 			(at 0 4.15 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "d9099438-ab5d-4fe1-8cc6-787cbfe1583c")
 			(effects
 				(font
@@ -4709,17 +4690,6 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "d86b39d8-b42b-4531-8c8b-d16258402833")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "f390d6b7-6c83-405a-a2f7-bb98e478e3dd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -5744,6 +5714,7 @@
 		(property "Value" "MountingHole_3.2mm_M3"
 			(at 0 4.15 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "aca0e8ce-8cb7-4c7a-ae90-02c54aa03639")
 			(effects
 				(font
@@ -5809,17 +5780,6 @@
 			(fill no)
 			(layer "F.CrtYd")
 			(uuid "fa4f825c-b127-4896-ae64-e9e7b159e3e1")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "ae146133-1cfa-4ba1-903c-ffed744e3b32")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -6016,7 +5976,7 @@
 		(descr "Terminal Block Phoenix MKDS-1,5-6-5.08, 6 pins, pitch 5.08mm, size 30.5x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-6-5.08 pitch 5.08mm size 30.5x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "J1"
-			(at 12.77988 -3.959598 90)
+			(at 12.7 0 90)
 			(layer "F.SilkS")
 			(uuid "13146627-50e3-4d86-ba1c-a04a1659c36d")
 			(effects
@@ -6602,6 +6562,72 @@
 		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "1b3bb8d1-dc66-41dc-9ed8-66a57a403963")
+	)
+	(gr_text "5V"
+		(at 133.35 88.93 0)
+		(layer "F.SilkS")
+		(uuid "fdb5d4e3-ff68-4e0e-a451-491e81ae9d23")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "GND"
+		(at 133.35 93.98 0)
+		(layer "F.SilkS")
+		(uuid "92dfbbc3-e098-4abe-8e41-f75446619de1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "0"
+		(at 133.35 99.06 0)
+		(layer "F.SilkS")
+		(uuid "6b919338-a01c-413b-bd81-93d34bab4505")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "1"
+		(at 133.35 104.14 0)
+		(layer "F.SilkS")
+		(uuid "1406b3c8-9a27-4205-89bd-fedc9e016bc4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "2"
+		(at 133.35 109.22 0)
+		(layer "F.SilkS")
+		(uuid "94d7f1e4-7879-40fb-9234-4454c4521acb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "3"
+		(at 133.35 114.3 0)
+		(layer "F.SilkS")
+		(uuid "8d1f7c89-7a3f-400d-98d0-329f6c9c2d9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
 	)
 	(gr_text "RGBW Led Driver\nRev 0.1^n"
 		(at 156.73865 80.434449 0)
