@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "RGBW Led Driver")
-		(date "2026-11-24")
-		(rev "0.2.1")
+		(date "2026-11-25")
+		(rev "0.2.1a")
 		(company "Red M")
 	)
 	(layers
@@ -4220,6 +4220,14 @@
 		(path "/588e343e-71bb-4d61-91fb-1c845330edc1")
 		(sheetname "/")
 		(sheetfile "RGBW Led Driver.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "20" "19" "18" "17" "16"
+					"15" "14" "13" "12" "11"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -6243,7 +6251,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "4.7uF"
 			(at 0 1.85 90)
 			(layer "F.Fab")
 			(uuid "0c333689-4e31-4c8a-8921-88dc8229f6f2")
@@ -8029,7 +8037,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "4.7uF"
 			(at 0 1.85 90)
 			(layer "F.Fab")
 			(uuid "5b41c269-f4a2-42fb-99a6-aebb41144262")

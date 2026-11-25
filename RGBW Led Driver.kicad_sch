@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "24v RGBW Led Driver")
-		(date "2026-11-20")
-		(rev "0.2.0")
+		(date "2026-11-25")
+		(rev "0.2.1")
 		(company "Red M")
 	)
 	(lib_symbols
@@ -3868,7 +3868,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "4.7uF"
 			(at 112.014 139.192 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5101,7 +5101,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1µF"
+		(property "Value" "4.7uF"
 			(at 112.014 88.392 90)
 			(show_name no)
 			(do_not_autoplace no)
